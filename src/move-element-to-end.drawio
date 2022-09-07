@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T12:04:32.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="8M4tLFOfF1jFxYYzkbVk" type="github"><diagram id="OHEuFfeLG9uB1WrQxHXe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-07T12:27:07.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m0cxJ776KIOE8-CnOHqq" version="20.2.7" type="github">
+  <diagram id="OHEuFfeLG9uB1WrQxHXe" name="Page-1">
+    <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JKFuLqLKD_Gk_kR8er3l-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Move Element to End&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;You&#39;re given an array of integers and an integer&lt;/li&gt;&lt;li&gt;Write a function that moves all instances of that integer in the array to the end of the array and return the array&lt;/li&gt;&lt;li&gt;The function should perform this in place&lt;/li&gt;&lt;li&gt;Doesn&#39;t need to maintain the order of the other integers&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Input: array=[2,1,2,2,2,3,4,2],&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;toMove = 2&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Output = [1,3,4,2,2,2,2,2]&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="60" width="510" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="JKFuLqLKD_Gk_kR8er3l-2" value="&lt;h1&gt;Solution&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Create a pointer pointed to the first element in the array&lt;/li&gt;&lt;ul&gt;&lt;li&gt;This pointer will be used to know where to put our non-toMove element when we encounter it&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Loop over the array&lt;/li&gt;&lt;li&gt;If array[i] != toMove, swap this element with our pointer&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="460" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="JKFuLqLKD_Gk_kR8er3l-3" value="[2,1,2,2,2,3,4,2]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="370" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JKFuLqLKD_Gk_kR8er3l-4" value="&lt;h1&gt;Time Complexity&lt;/h1&gt;&lt;p&gt;O(N)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="530" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JKFuLqLKD_Gk_kR8er3l-5" value="&lt;h1&gt;Space Complexity&lt;/h1&gt;&lt;p&gt;O(1)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="680" width="230" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
