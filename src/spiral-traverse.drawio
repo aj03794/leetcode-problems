@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T22:23:17.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Cew_BlJMlt5oBfAJl4ly" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T22:24:47.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JQ_Ppvbg7Fk6-xIslF2o" version="20.2.7" type="github">
   <diagram id="roDV2kf7TTpQiakgGkn3" name="Page-1">
     <mxGraphModel dx="1247" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -9,6 +9,12 @@
         </mxCell>
         <mxCell id="kQU2PhaHGbYmVckeRxvD-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Solution 1&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;We need to keep track of startRow, endRow, startColumn, endRow&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Once we traverse an entire row/column, we need to up either start/end row or start/end column&lt;/li&gt;&lt;ul&gt;&lt;li&gt;For example, if we traversed the entire first column, then startColumn++&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;Traverse current column until we hit end&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Then start going down across rows&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Traverse current row until we hit end&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Then start going left across columns&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Traverse current column until we hit end&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Then start going up&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Traverse row until we hit end&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Then start going right&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="390" width="490" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="kQU2PhaHGbYmVckeRxvD-4" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Space Complexity&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;O(MxN)&lt;/li&gt;&lt;li&gt;Have to store entire MxN matrix&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kQU2PhaHGbYmVckeRxvD-5" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Time Complexity&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;O(MxN)&lt;/li&gt;&lt;li&gt;Have to traverse all entire M x N matrix&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="840" width="360" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
