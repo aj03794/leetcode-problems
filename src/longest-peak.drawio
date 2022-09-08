@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T22:25:42.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="Dmv7xccle2WIfxEixfgy" type="github"><diagram id="dlBevfMndSiyl9eXqgAb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-08T11:39:32.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vbj9JzIKlIMLVexdemYI" version="20.2.7" type="github">
+  <diagram id="dlBevfMndSiyl9eXqgAb" name="Page-1">
+    <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q09U9lihFqpWnOIBTY1K-1" value="&lt;h1&gt;Longest Peak&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in an array of integers and returns the length of the longest peak in the array&lt;/li&gt;&lt;li&gt;A peak is defined as adjacent integers in the array that are strictly increasing until they reach a tip (the highest value is the peak) at which point they become strictly decreasing&lt;/li&gt;&lt;li&gt;At least 3 integers are required to form a peak&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example of peak&lt;/div&gt;&lt;div&gt;[1, 4, 10, 2] form a peak -&amp;gt; 10 is the peak&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Examples of non-peaks&lt;/div&gt;&lt;div&gt;[4, 0,10] don&#39;t&lt;/div&gt;&lt;div&gt;[1, 2, 2, 0] don&#39;t&lt;/div&gt;&lt;div&gt;[1,2,3] don&#39;t&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;array = [1,2,3,3,4,0,10,6,5,-1,-3,2,3]&lt;/div&gt;&lt;div&gt;output = 6 // 0, 10, 6, 5, -1, -3&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="430" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="q09U9lihFqpWnOIBTY1K-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Solution 1&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;We could iterate through the array and keep track of the longest peak that we found&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This approach is possible but it&#39;s complex&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;For example, what if your array starts off decreasing?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="450" width="370" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="q09U9lihFqpWnOIBTY1K-3" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Solution 2&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Separate into two tasks&lt;/li&gt;&lt;li&gt;Find all peaks&lt;/li&gt;&lt;ul&gt;&lt;li&gt;This is simple, we just need to find where currentVal &amp;gt; prevVal &amp;amp;&amp;amp; currentVal &amp;gt; nextVal&lt;/li&gt;&lt;li&gt;We don&#39;t know how long the peaks are yet, we will do this later&lt;/li&gt;&lt;li&gt;We keep track of the index of the peaks here&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Compare the lengths all the peaks&lt;/li&gt;&lt;ul&gt;&lt;li&gt;How can we find their lengths?&lt;/li&gt;&lt;li&gt;From both of the tips, we see how far left and right we can go until it is no longer strictly increasing or decreasing&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Return the longest one&lt;/li&gt;&lt;li&gt;NOTE: we broke this solution out into multiple tasks here, but we could actually combine these together&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="670" width="560" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="q09U9lihFqpWnOIBTY1K-4" value="[1,2,3,3,4,0,10,6,5,-1,-3, 2, 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q09U9lihFqpWnOIBTY1K-7" value="4 and 10 are the peaks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="720" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q09U9lihFqpWnOIBTY1K-8" value="&lt;h1&gt;Time Complexity of Solution 2&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;O(N)&lt;/li&gt;&lt;li&gt;Even though we&#39;re iterating through the array for each peak - we would only ever iterate a max of N elements&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If there was 1 peak whose length was the entire array, this would be the worst case&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="920" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q09U9lihFqpWnOIBTY1K-9" value="&lt;h1&gt;Space Complexity of Solution 2&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;O(M)&lt;/li&gt;&lt;li&gt;M = number of peaks in the array&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1080" width="380" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
