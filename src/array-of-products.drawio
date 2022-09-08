@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T16:04:29.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7i3hg2D3bwne9VEnfnmx" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T16:05:09.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="O49Ohbxt3w2-X-mLavZR" version="20.2.7" type="github">
   <diagram id="1_KvDQNelg_fLiJWdgrR" name="Page-1">
     <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="4wGs5ptdxa24Hdlg0N74-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If we look at any index i, it&#39;s value will be the product(values to right) * (product(values to left)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Example, index = 1, value there would be (5) * (4 * 2) = 40&lt;/li&gt;&lt;li&gt;So we do is make a &quot;leftArray&quot; and a &quot;rightArray&quot;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The leftArray, at any index, will be the product of the values to the left of that index&lt;/li&gt;&lt;li&gt;The rightArray, at any index, will be the product of the values to right of that index&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="545" y="650" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4wGs5ptdxa24Hdlg0N74-8" value="&lt;h1&gt;Space/Time Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;O(N) time complexity&lt;/li&gt;&lt;li&gt;O(N) space complexity&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="830" width="300" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
