@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T11:40:01.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="98sZQl2dOd-I7zHpaWyf" type="github"><diagram id="1_KvDQNelg_fLiJWdgrR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-08T16:04:29.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7i3hg2D3bwne9VEnfnmx" version="20.2.7" type="github">
+  <diagram id="1_KvDQNelg_fLiJWdgrR" name="Page-1">
+    <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4wGs5ptdxa24Hdlg0N74-1" value="&lt;h1&gt;Array of Products&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in an non-empty array of integers and returns an array of the same length, where each element in the output array is equal to the product of every other number in the array&lt;/li&gt;&lt;li&gt;In other words, output[i] is equal to the product of every other number in the input array other than input[i]&lt;/li&gt;&lt;li&gt;NOTE: Expected to solve this problem without division&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;Input: array = [5, 1, 4, 2]&lt;/div&gt;&lt;div&gt;Output: result = [8, 40, 10, 20]&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="530" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4wGs5ptdxa24Hdlg0N74-2" value="&lt;h1&gt;Brute Force Solution&lt;/h1&gt;&lt;p&gt;We could make a result array and initialize it with 1s&lt;/p&gt;&lt;p&gt;Then we could loop through the that result array and for each index (excluding the current index), multiply the other values in the input array&lt;/p&gt;&lt;p&gt;This would create solution with O(N^2) time complexity&lt;/p&gt;&lt;p&gt;Space complexity would be O(N)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4wGs5ptdxa24Hdlg0N74-3" value="&lt;h1&gt;Optimized Solution&lt;/h1&gt;&lt;p&gt;We are doing a lot of repeated work here&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;For example,&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;40 = 5 * 4 * 2&lt;/li&gt;&lt;li&gt;8 = 1 * 4 * 2&lt;/li&gt;&lt;li&gt;We don&#39;t need to compute 4 * 2 again after we&#39;ve already done this&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="630" width="450" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4wGs5ptdxa24Hdlg0N74-4" value="[5,1,4,2]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="640" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4wGs5ptdxa24Hdlg0N74-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;If we look at any index i, it&#39;s value will be the product(values to right) * (product(values to left)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Example, index = 1, value there would be (5) * (4 * 2) = 40&lt;/li&gt;&lt;li&gt;So we do is make a &quot;leftArray&quot; and a &quot;rightArray&quot;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;The leftArray, at any index, will be the product of the values to the left of that index&lt;/li&gt;&lt;li&gt;The rightArray, at any index, will be the product of the values to right of that index&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="650" width="550" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
