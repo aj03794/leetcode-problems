@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T11:45:07.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="jByIWVjvErAkLnM0yJGD" type="github"><diagram id="fiOUacKklxMrVB7VpBp5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-09T11:48:35.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QaWG71OQDEOHbPW2UnEy" version="20.2.7" type="github">
+  <diagram id="fiOUacKklxMrVB7VpBp5" name="Page-1">
+    <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cojuT7JFz5XVT151xIte-1" value="&lt;h1&gt;Non-Constructible Change&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Given an array of positive integers representing the values of coins in your possession, write a function that returns the minimum amount of change (the minimum sum of money) that you &lt;b&gt;cannot &lt;/b&gt;create&amp;nbsp;&lt;/li&gt;&lt;li&gt;The given coins can have any positive integer and aren&#39;t necessarily unique (you can have multiple coins of the same value&lt;/li&gt;&lt;li&gt;For example, if you&#39;re given coins = [1,2,5], the minimum amount of change that you can&#39;t create is 4&lt;/li&gt;&lt;li&gt;If you&#39;re given no coins the minimum amount of change that you can&#39;t create is 1&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input: coins = [5, 7, 1, 1, 2, 3, 22]&lt;/div&gt;&lt;div&gt;Output: 20&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="620" height="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
