@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T11:48:35.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QaWG71OQDEOHbPW2UnEy" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T20:55:54.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wak_WU_wVILZSr_7G_xi" version="20.2.7" type="github">
   <diagram id="fiOUacKklxMrVB7VpBp5" name="Page-1">
-    <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="373" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cojuT7JFz5XVT151xIte-1" value="&lt;h1&gt;Non-Constructible Change&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Given an array of positive integers representing the values of coins in your possession, write a function that returns the minimum amount of change (the minimum sum of money) that you &lt;b&gt;cannot &lt;/b&gt;create&amp;nbsp;&lt;/li&gt;&lt;li&gt;The given coins can have any positive integer and aren&#39;t necessarily unique (you can have multiple coins of the same value&lt;/li&gt;&lt;li&gt;For example, if you&#39;re given coins = [1,2,5], the minimum amount of change that you can&#39;t create is 4&lt;/li&gt;&lt;li&gt;If you&#39;re given no coins the minimum amount of change that you can&#39;t create is 1&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input: coins = [5, 7, 1, 1, 2, 3, 22]&lt;/div&gt;&lt;div&gt;Output: 20&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="620" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="cojuT7JFz5XVT151xIte-2" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Bruce Force approach&lt;/li&gt;&lt;li&gt;We basically would need to loop through all positive integers (in Java from 1 to Integer.MAX_VALUE) and once we hit some value K that our coins cannot make that is our result&lt;/li&gt;&lt;li&gt;For each value from 1 to Integer.MAX_VALUE we would need to be able to look at our array of coins and figure out can those coins make whatever value we&#39;re looking at&lt;/li&gt;&lt;li&gt;This will be complicated to implement&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="450" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cojuT7JFz5XVT151xIte-3" value="[5,7,1,1,2,3,22]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="425" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cojuT7JFz5XVT151xIte-7" value="&lt;h1&gt;Solution 2&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Does sorting the input array help?&lt;/li&gt;&lt;li&gt;[1,1,2,3,5,7,22]&lt;/li&gt;&lt;li&gt;What change can we make from this?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Well we can create 1&lt;br&gt;&lt;/li&gt;&lt;li&gt;We can create 1 + 1 or 1 (but we&#39;ve already seen 1)&lt;/li&gt;&lt;li&gt;We can create 1 + 1 + 2, 1 + 2, 1 + 2, or 2&lt;/li&gt;&lt;li&gt;We can create 1 + 1 + 2 + 3, 1 + 2 + 3, 1 + 2 + 3, 1 + 3, 2 + 3, or 3&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="670" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
