@@ -1,14 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T10:40:41.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qc6a_byO8OKl7GiePVah" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T11:44:18.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6LfWiFDYrGaqkHozDQ7q" version="20.2.7" type="github">
   <diagram id="QBGtBIbipI5UD4F50_Ti" name="Page-1">
     <mxGraphModel dx="1829" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="hRjdQl0tkElLS7EOQZCY-1" value="&lt;h1&gt;Find Three Largest Numbers&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in an array of &lt;i&gt;at least three integers&lt;/i&gt;, and without sorting the input array, return a sorted array of the three largest integers in the input array&lt;/li&gt;&lt;li&gt;The function should return duplicates if possible; for example, it should return [10, 10, 12] for an input array of [10, 5, 9, 10, 12]&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="60" width="480" height="150" as="geometry" />
+        <mxCell id="hRjdQl0tkElLS7EOQZCY-1" value="&lt;h1&gt;Find Three Largest Numbers&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in an array of &lt;i&gt;at least three integers&lt;/i&gt;, and without sorting the input array, return a sorted array of the three largest integers in the input array&lt;/li&gt;&lt;li&gt;The function should return duplicates if possible; for example, it should return [10, 10, 12] for an input array of [10, 5, 9, 10, 12]&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;Input = [141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7]&lt;/div&gt;&lt;div&gt;Output = [18, 141, 541]&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="500" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="hRjdQl0tkElLS7EOQZCY-2" value="&lt;h1&gt;Solution&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="280" width="190" height="120" as="geometry" />
+        <mxCell id="hRjdQl0tkElLS7EOQZCY-2" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Create a min heap and see it with the first 3 values of the array&lt;/li&gt;&lt;li&gt;Loop over the remaining array&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If the value at array[index] &amp;gt; minHeap.peek()&lt;/li&gt;&lt;li&gt;Remove the head of the minHeap and add the new value&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Add 3 values from minHeap to a result array and return it&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="280" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hRjdQl0tkElLS7EOQZCY-3" value="&lt;h1&gt;Solution 2&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Create result array of size 3&lt;/li&gt;&lt;li&gt;Initialize all values to Integer.MIN_VALUE&lt;/li&gt;&lt;li&gt;Loop through array&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If currentVal &amp;gt; result[2]&lt;/li&gt;&lt;li&gt;Set result[2] = currentVal and shift values to left&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Former result[2] becomes result[1] and result[0] becomes result[1]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Do the same checks with result[1] and result[2] and shift where necessary&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="760" width="470" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hRjdQl0tkElLS7EOQZCY-4" value="&lt;h1&gt;Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time complexity O(N Log(3)) = O(N)&lt;/li&gt;&lt;li&gt;Space Complexity O(1) because result is always of length 3&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hRjdQl0tkElLS7EOQZCY-5" value="&lt;h1&gt;Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time complexity O(N)&lt;/li&gt;&lt;li&gt;Space Complexity O(1) because result is always of length 3&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="990" width="350" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
