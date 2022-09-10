@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-09-10T12:23:02.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="hskqOyG2IwMQqmVNIh9s" type="github"><diagram id="IzndnLt2ryjvLYwyCx1o">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-10T13:14:28.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m7iUwi3Wgc5-N5HSvn9k" version="20.2.7" type="github">
+  <diagram id="IzndnLt2ryjvLYwyCx1o" name="Page-1">
+    <mxGraphModel dx="557" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3du4MdFvPzraVtrKpNUb-1" value="&lt;h1&gt;Max Subset Sum No Adjacent&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in an array of positive integers and returns the maximum sum of non-adjacent elements in the array&lt;/li&gt;&lt;li&gt;If the input array is empty, the function should return 0&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;Input: array = [75, 105, 120, 75, 90, 135]&lt;/div&gt;&lt;div&gt;Output: 330 =&amp;gt; 75 + 120 + 135&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="580" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-2" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This is a dynamic programming problem&lt;/li&gt;&lt;li&gt;If we look at the flow to the right&lt;/li&gt;&lt;ul&gt;&lt;li&gt;When we get to the final number (14) in the input array, we have two choices&lt;/li&gt;&lt;li&gt;Either we can take 28 as our greatest number&lt;/li&gt;&lt;li&gt;OR we can take the number before 28 (which is 19) and add that to 14&lt;/li&gt;&lt;li&gt;We can&#39;t take 28 because that has 9 which is adjacent to 14&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;maxSums[i] can be potentially two different values&lt;/li&gt;&lt;ul&gt;&lt;li&gt;1) It&#39;s maxSums[i - 1]&lt;/li&gt;&lt;li&gt;2) it&#39;s maxSums[i - 2] + arrays[i]&lt;/li&gt;&lt;li&gt;We have two base cases, we are going to have to apply maxSums[0] and maxSums[1]&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="460" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-3" value="&lt;h1&gt;Solution 1 Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(n)&lt;/li&gt;&lt;li&gt;Space Complexity O(n)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="605" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-4" value="[7, 10, 12, 7, 9, 14]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-5" value="[ _, _, _, _, _, _, _ ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-6" value="i = 0, greatest sum we can generate with no adjacent numbers is 7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="450" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-7" value="[ 7, _, _, _, _, _, _ ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-8" value="i = 1, greatest sum we can have is 10 because 7 is adjacent to 10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="550" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-9" value="[ 7, 10, _, _, _, _, _ ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-11" value="i = 2, greatest sum we can have is 19 (7 +12) which is greater than 10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="650" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-12" value="[ 7, 10, 19, _, _, _, _ ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-13" value="i = 3, greatest sum we can have is either 19, 17 (7 + 10), or 14 (7 + 7)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="750" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-14" value="[ 7, 10, 19, 19, _, _, _ ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="800" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-15" value="i = 4, sums we can have are 7+9+12 (28), 10 + 7 (17), 7 + 9 (16)&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="870" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-16" value="[ 7, 10, 19, 19, 28, _ ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="920" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-17" value="i = 5, max sum we can create here is 7 + 12 + 14" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="980" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-18" value="[ 7, 10, 19, 19, 28, 33 ]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1030" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-19" value="&lt;h1&gt;Solution 2&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;If we look closely at the first solution, we actually only ever use two previous values&lt;/li&gt;&lt;ul&gt;&lt;li&gt;maxSums[i - 1]&lt;/li&gt;&lt;li&gt;maxSums[i - 2]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Can we optimize this to get space complexity from O(N) down to O(1)&lt;/li&gt;&lt;li&gt;Yes we can do this&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="800" width="490" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3du4MdFvPzraVtrKpNUb-20" value="&lt;h1&gt;Solution 2 Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(N)&lt;/li&gt;&lt;li&gt;Space Complexity O(1)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="990" width="490" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
