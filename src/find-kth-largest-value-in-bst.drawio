@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-11T17:36:39.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lzGRnhrByZTAg7Myssyj" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-11T18:59:32.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="201RprePiRwdBHL4uEZc" version="20.2.7" type="github">
   <diagram id="Nk-_cuZTZhkbUVQGvCGt" name="Page-1">
     <mxGraphModel dx="548" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="otLUUT6EIdPRkaRg_DL2-3" value="&lt;h1&gt;Solution 1 Time and Space Complexity&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(N)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Where N is the number of nodes in the BST&lt;/li&gt;&lt;li&gt;Have to iterate the entire BST&lt;/li&gt;&lt;li&gt;Have to iterate the entire list of the BST values&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Space Complexity O(N)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Keep list of the BST values&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="630" width="480" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="otLUUT6EIdPRkaRg_DL2-4" value="&lt;h1&gt;Solution 2&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Could we optimize solution 1 by doing an reverse in order traversal?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Traverse it in descending order?&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Yes, we can do this and keep tr&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="otLUUT6EIdPRkaRg_DL2-4" value="&lt;h1&gt;Solution 2&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Could we optimize solution 1 by doing an reverse in order traversal?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Traverse it in descending order?&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Yes, we can do this and keep track of how many&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="35" y="880" width="480" height="170" as="geometry" />
         </mxCell>
       </root>
