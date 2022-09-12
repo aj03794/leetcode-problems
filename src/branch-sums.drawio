@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T10:10:57.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eZJvj6uS-t4JI5uxDm4D" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-12T10:33:17.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="O4qxuGrKhz6DL7oJa2sg" version="20.2.7" type="github">
   <diagram id="yU6ABt9eaMRDnJBrM0nO" name="Page-1">
-    <mxGraphModel dx="613" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="491" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="40" y="700" width="420" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Z5kWPRJTPKrtoBb-52i_-6" value="&lt;h1&gt;Solution 1 Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(N) because we have to traverse every element in the BST&lt;/li&gt;&lt;li&gt;Space Complexity O(N)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1000" width="420" height="260" as="geometry" />
+          <mxGeometry x="40" y="940" width="420" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
