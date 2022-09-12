@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T11:31:41.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.7" etag="zk8mUtFa4-jo0dtBXnzZ" type="github"><diagram id="YkNqFAmZns4Fq8jISWKb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-12T11:34:02.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AiGjgFYZtTkIF9NlhsgS" version="20.2.7" type="github">
+  <diagram id="YkNqFAmZns4Fq8jISWKb" name="Page-1">
+    <mxGraphModel dx="582" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eRYGA-AcLf5f-roHr9BY-1" value="&lt;h1&gt;Remove Duplicates from Linked List&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Given the head of a Singly Linked List whose nodes are in sorted order with respect to their values&lt;/li&gt;&lt;li&gt;Write a function that returns a modified version of the Linked List that doesn&#39;t contain any nodes with any duplicate values&lt;/li&gt;&lt;li&gt;The Linked List should be modified in place and the modified Linked List should still have its nodes sorted with respect to their values&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input: linkedList = 1 -&amp;gt; 1 -&amp;gt; 3 -&amp;gt; 4 -&amp;gt; 4 -&amp;gt; 4 -&amp;gt; 5 -&amp;gt; 6 -&amp;gt;&lt;/div&gt;&lt;div&gt;Output: 1 -&amp;gt; 3 -&amp;gt; 4 -&amp;gt; 5 -&amp;gt; 6&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="560" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
