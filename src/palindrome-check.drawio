@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2022-09-12T10:39:39.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cIJZh7IXUL3aQ6zNIDIy" version="20.2.7" type="github">
+  <diagram id="t2o8LZwbaUUfqBbfCkuX" name="Page-1">
+    <mxGraphModel dx="627" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YTMU2fDgtyc_AhH7eMxs-1" value="&lt;h1&gt;Palindrome Check&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in a non-empty string and that returns a boolean representing whether the string is a palindrome&lt;/li&gt;&lt;li&gt;A palindrome is a string that&#39;s written the same forward and backword&lt;/li&gt;&lt;li&gt;NOTE: Single-character strings are palindromes&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;Input: string = &quot;abcdbca&quot;&lt;/div&gt;&lt;div&gt;Output : true // it&#39;s written the same forward and backward&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YTMU2fDgtyc_AhH7eMxs-2" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Have a pointer at start of string&lt;/li&gt;&lt;li&gt;Have pointer at end of string&lt;/li&gt;&lt;li&gt;Loop while startPointer &amp;lt;= endPointer&lt;/li&gt;&lt;li&gt;If at any point the characters don&#39;t match then we don&#39;t have a match&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YTMU2fDgtyc_AhH7eMxs-3" value="&lt;h1&gt;Solution 1 Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(N)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;We have to traverse the entire string&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Space Complexity O(1)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="480" width="490" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

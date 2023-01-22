@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2022-09-11T11:49:41.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cnwx9cOcVOM2smCGNxan" version="20.2.7" type="github">
+  <diagram id="5LEY054yBshecj0tVTBt" name="Page-1">
+    <mxGraphModel dx="527" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ubfRhM4-0xh_pyfC173A-1" value="&lt;h1&gt;Sorted Squared Array&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in a non-empty array of integers that are sorted in ascending order and returns a new array of the same length with the squares of the original integers also sorted in ascending order&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;Input: array = [1,2,3,4,5,8,9]&lt;/div&gt;&lt;div&gt;Output: [1,4,9,25,36,64,81]&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="50" width="460" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ubfRhM4-0xh_pyfC173A-2" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pointer starting at start of array and end of array&lt;/li&gt;&lt;li&gt;We&#39;ll square both values and check with one is bigger&lt;/li&gt;&lt;li&gt;We will fill the resultant array from end to start&lt;/li&gt;&lt;li&gt;We are doing this to account for an array of something like [-5,-4,-3,0,1,2]&lt;/li&gt;&lt;ul&gt;&lt;li&gt;We squares of the smallest numbers here become the greatest&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="400" width="490" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ubfRhM4-0xh_pyfC173A-3" value="&lt;h1&gt;Time and Space Complexity&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Time Complexity is O(N) where N is the length of the input array&lt;/li&gt;&lt;li&gt;Space Complexity is (N) because of the result array&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="730" width="490" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

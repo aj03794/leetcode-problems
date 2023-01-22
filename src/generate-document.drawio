@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2022-09-12T11:31:19.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="upxpCW-eZntWaj2eyPqp" version="20.2.7" type="github">
+  <diagram id="06wdHnSSnV3KOE_IHMz-" name="Page-1">
+    <mxGraphModel dx="582" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pSU8wJK_n9CbE8vIAlj3-1" value="&lt;h1&gt;Generate Document&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;You&#39;re given a string of available characters and a string representing a document that you need to generate&lt;/li&gt;&lt;li&gt;Write a function that determines if you can generate the document using the available characters&lt;/li&gt;&lt;li&gt;If you can generate the document, your function should return true; otherwise it should return false&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;You&#39;re only able to generate the document if the frequency of unique characters in the string is greater than or equal to the frequency of unique characters in the document string&lt;/li&gt;&lt;li&gt;For example if you&#39;re given characters = &quot;abcabc&quot; and document &quot;aabbccc&quot;, you CANNOT generate the document because you&#39;re missing one c&lt;/li&gt;&lt;li&gt;The document that you need to create many contain any characters&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Special characters&lt;/li&gt;&lt;li&gt;capital letters&lt;/li&gt;&lt;li&gt;numbers&lt;/li&gt;&lt;li&gt;spaces&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Note: you can always generate the empty string &quot;&quot;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="560" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="pSU8wJK_n9CbE8vIAlj3-2" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Loop through the characters given and create a characterFrequencyMap&lt;/li&gt;&lt;ul&gt;&lt;li&gt;This will allow us to track the characters that we have an how many of a particular character we have to use&lt;/li&gt;&lt;li&gt;We need to loop through the document and check that the character is in the characterFrequencyMap&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If it is, update the frequency (the value) to be frequency - 1&lt;/li&gt;&lt;li&gt;Otherwise we return false because the character wasn&#39;t found&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="425" width="570" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="pSU8wJK_n9CbE8vIAlj3-3" value="&lt;h1&gt;Solution 1 Time and Space Complexity&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(N + M)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;N is length of characters&lt;/li&gt;&lt;li&gt;M is length of document&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Space Complexity O(N)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;N is length of characters&lt;/li&gt;&lt;li&gt;This will be for our map we create&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="670" width="570" height="205" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2022-09-11T12:48:06.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="a-N5hTylfr78RIZRBv_S" version="20.2.7" type="github">
+  <diagram id="Er7YR675L-PHJDEVd5p3" name="Page-1">
+    <mxGraphModel dx="613" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-1" value="&lt;h1&gt;Validate BST&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Write a function that takes in a potentially invalid Binary Search Tree and returns a boolean representing whether the BST is valid&lt;/li&gt;&lt;li&gt;A node is said to be a valid BST node if and only if it satisfies the BST value&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Its value is strictly greater than the values of every node to its left&lt;/li&gt;&lt;li&gt;Its value is less than or equal to the values of every node to its right&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="460" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-2" value="10" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-3" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-4" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="220" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-5" value="13" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-6" value="22" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="840" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-7" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-8" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-9" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-10" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="770" y="360" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ffKaufBc8RBYuSxmgP3-2" target="9ffKaufBc8RBYuSxmgP3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="250" as="sourcePoint" />
+            <mxPoint x="630" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9ffKaufBc8RBYuSxmgP3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="200" as="sourcePoint" />
+            <mxPoint x="720" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9ffKaufBc8RBYuSxmgP3-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="260" as="sourcePoint" />
+            <mxPoint x="730" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9ffKaufBc8RBYuSxmgP3-3" target="9ffKaufBc8RBYuSxmgP3-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="230" as="sourcePoint" />
+            <mxPoint x="740" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ffKaufBc8RBYuSxmgP3-4" target="9ffKaufBc8RBYuSxmgP3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="240" as="sourcePoint" />
+            <mxPoint x="750" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.348;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9ffKaufBc8RBYuSxmgP3-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="260" as="sourcePoint" />
+            <mxPoint x="760" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ffKaufBc8RBYuSxmgP3-8" target="9ffKaufBc8RBYuSxmgP3-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="260" as="sourcePoint" />
+            <mxPoint x="770" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ffKaufBc8RBYuSxmgP3-5" target="9ffKaufBc8RBYuSxmgP3-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="270" as="sourcePoint" />
+            <mxPoint x="780" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffKaufBc8RBYuSxmgP3-20" value="&lt;h1&gt;Solution 1&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Recursively, we can go through the BST&lt;/li&gt;&lt;li&gt;We need a helper function that takes in a min value and max value&lt;/li&gt;&lt;li&gt;We use this min value and max value to check if the current node is valid&lt;/li&gt;&lt;li&gt;We check if root.val &amp;gt;= maxVal || root.value &amp;lt; minVal then we know it&#39;s an invalid node&lt;/li&gt;&lt;li&gt;If we&#39;re looking at node 5 for example (the child node to the right of the first 5 we see) - the minimum value this node can be is 5 and the maximum value this node can be is 10&lt;/li&gt;&lt;ul&gt;&lt;li&gt;So we need to make sure our maxVal here is 10 and our minValue is 5&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="305" width="480" height="285" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2022-09-11T11:39:27.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="n0PlTIus-l0zQn2Jfemq" version="20.2.7" type="github">
+  <diagram id="c6PqFvr1Bwt07eW4Q-qa" name="Page-1">
+    <mxGraphModel dx="527" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QzcAC0yXMFtsH6BwPbpK-1" value="&lt;h1&gt;Validate Subsequence&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Given two non-empty arrays of integers write a function that determines whether the second array is a subsequence of the first&lt;/li&gt;&lt;li&gt;A subsequence of an array is a set of numbers that aren&#39;t necessarily adjacent in the array but that are in the same order as they appear in the array&lt;/li&gt;&lt;li&gt;For example, the numbers [1,3,4] form a subsequence of the array [1,2,3,4] and so do the numbers [2,4]&lt;/li&gt;&lt;li&gt;NOTE that a single number in an array and the array itself are both valid subsequences of the array&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Example&lt;/div&gt;&lt;div&gt;Input: array = [5,1,22,25,6,-1,8,10], sequence = [1,6,-1,10]&lt;/div&gt;&lt;div&gt;Output: true&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="510" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QzcAC0yXMFtsH6BwPbpK-2" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Solution 1&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;For each number of sequence search inside of array&lt;/li&gt;&lt;li&gt;For each number we are searching for we need to do a couple things&lt;/li&gt;&lt;ul&gt;&lt;li&gt;If array doesn&#39;t contain the number, our sequence is not a subsequence of the array&lt;/li&gt;&lt;li&gt;If we have a match, then break out of the loop going through the array&lt;/li&gt;&lt;li&gt;Next time we loop through the array we want to start at where we ended + 1&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="450" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="QzcAC0yXMFtsH6BwPbpK-4" value="&lt;h1&gt;Solution 1 Time and Space Complexity&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Time Complexity O(N)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Even though we have a nested loop&lt;/li&gt;&lt;li&gt;We will only loop through each list one&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Space Complexity O(1)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="700" width="450" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
