@@ -6,7 +6,9 @@
 
 ##### Time Complexity
 
-- In a balanced tree, we are always cutting the tree in half in our search so it's O(log n)
+- In a balanced tree, we are always cutting the tree in half in our search, so it's O(log n)
+  - **A balanced binary tree (aka a height-balanced binary tree) is defined as a binary tree in 
+    which the height of the left and right subtree of any node differ by not more than 1**
 - If we have a fully skewed tree, worst case is O(n)
 
 #### Pre-Order Traversal
